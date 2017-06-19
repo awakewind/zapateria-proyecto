@@ -1,0 +1,3 @@
+C:\Users\rikelmi\Documents\Visual Studio 2015\Projects\zapateria-proyecto\zapateria-proyecto\bin\zapateria\zapateria-proyecto.dll
+C:\Users\rikelmi\Documents\Visual Studio 2015\Projects\zapateria-proyecto\zapateria-proyecto\obj\zapateria\zapateria-proyecto.dll
+C:\Users\rikelmi\Documents\Visual Studio 2015\Projects\zapateria-proyecto\zapateria-proyecto\obj\zapateria\zapateria-proyecto.csprojResolveAssemblyReference.cache

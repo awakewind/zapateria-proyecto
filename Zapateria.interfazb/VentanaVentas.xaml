@@ -1,0 +1,27 @@
+﻿<Window x:Class="Zapateria.interfazb.VentanaVentas"
+        WindowStartupLocation="CenterScreen"
+        ResizeMode="CanMinimize"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Zapateria.interfazb"
+        mc:Ignorable="d"
+        Title="VentanaVentas" Height="382.443" Width="497.71" Activated="Window_Activated">
+    <Grid>
+        <Label x:Name="label" Content="Cliente" HorizontalAlignment="Left" Margin="12,33,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label1" Content="Producto" HorizontalAlignment="Left" Margin="12,78,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.137,0.632"/>
+        <Label x:Name="label2" Content="Cantidad de producto" HorizontalAlignment="Left" Margin="12,120,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label3" Content="Total a pagar" HorizontalAlignment="Left" Margin="12,167,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.731,0.513"/>
+        <Label x:Name="label4" Content="Empleado" HorizontalAlignment="Left" Margin="12,214,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtcantproducto" HorizontalAlignment="Left" Height="23" Margin="199,120,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txttotalpagar" HorizontalAlignment="Left" Height="23" Margin="199,170,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Button x:Name="btnfinalizar" Content="Finalizar venta" HorizontalAlignment="Left" Margin="374,308,0,0" VerticalAlignment="Top" Width="98" Click="btnfinalizar_Click"/>
+        <Button x:Name="btnagregar" Content="Agregar productos" HorizontalAlignment="Left" Margin="248,308,0,0" VerticalAlignment="Top" Width="114" Click="btnagregar_Click"/>
+        <Label x:Name="lblFecha" Content="" HorizontalAlignment="Left" Margin="357,10,0,0" VerticalAlignment="Top" Width="115"/>
+        <ComboBox x:Name="cmbProducto" HorizontalAlignment="Left" Margin="199,78,0,0" VerticalAlignment="Top" Width="120"/>
+        <ComboBox x:Name="cmbCliente" HorizontalAlignment="Left" Margin="199,33,0,0" VerticalAlignment="Top" Width="120"/>
+        <ComboBox x:Name="cmbEmpleado" HorizontalAlignment="Left" Margin="199,218,0,0" VerticalAlignment="Top" Width="120"/>
+
+    </Grid>
+</Window>

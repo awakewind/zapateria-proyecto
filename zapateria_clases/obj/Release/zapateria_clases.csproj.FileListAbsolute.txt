@@ -1,0 +1,8 @@
+C:\Users\rikelmi\Documents\Visual Studio 2015\Projects\zapateria-proyecto\zapateria_clases\bin\Release\zapateria_clases.dll
+C:\Users\rikelmi\Documents\Visual Studio 2015\Projects\zapateria-proyecto\zapateria_clases\bin\Release\zapateria_clases.pdb
+C:\Users\rikelmi\Documents\Visual Studio 2015\Projects\zapateria-proyecto\zapateria_clases\obj\Release\zapateria_clases.dll
+C:\Users\rikelmi\Documents\Visual Studio 2015\Projects\zapateria-proyecto\zapateria_clases\obj\Release\zapateria_clases.pdb
+D:\Users\imdevdaniel\Documents\Visual Studio 2015\Projects\zapateria-proyecto\zapateria_clases\bin\Release\zapateria_clases.dll
+D:\Users\imdevdaniel\Documents\Visual Studio 2015\Projects\zapateria-proyecto\zapateria_clases\bin\Release\zapateria_clases.pdb
+D:\Users\imdevdaniel\Documents\Visual Studio 2015\Projects\zapateria-proyecto\zapateria_clases\obj\Release\zapateria_clases.dll
+D:\Users\imdevdaniel\Documents\Visual Studio 2015\Projects\zapateria-proyecto\zapateria_clases\obj\Release\zapateria_clases.pdb

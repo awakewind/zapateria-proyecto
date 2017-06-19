@@ -1,0 +1,5 @@
+C:\Users\rikelmi\Documents\Visual Studio 2015\Projects\zapateria-proyecto\zapateria-proyecto\bin\Debug\zapateria-proyecto.dll
+C:\Users\rikelmi\Documents\Visual Studio 2015\Projects\zapateria-proyecto\zapateria-proyecto\bin\Debug\zapateria-proyecto.pdb
+C:\Users\rikelmi\Documents\Visual Studio 2015\Projects\zapateria-proyecto\zapateria-proyecto\obj\Debug\zapateria-proyecto.csprojResolveAssemblyReference.cache
+C:\Users\rikelmi\Documents\Visual Studio 2015\Projects\zapateria-proyecto\zapateria-proyecto\obj\Debug\zapateria-proyecto.dll
+C:\Users\rikelmi\Documents\Visual Studio 2015\Projects\zapateria-proyecto\zapateria-proyecto\obj\Debug\zapateria-proyecto.pdb

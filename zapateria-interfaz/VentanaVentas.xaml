@@ -1,0 +1,23 @@
+﻿<Window x:Class="zapateria_interfaz.VentanaVentas"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:zapateria_interfaz"
+        mc:Ignorable="d"
+        Title="VentanaVentas" Height="299.237" Width="580.916">
+    <Grid>
+        <Label x:Name="label" Content="Nombre del cliente" HorizontalAlignment="Left" Margin="25.771,27.961,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="textBox" HorizontalAlignment="Left" Height="23" Margin="156.305,31.961,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="406.611"/>
+        <Label x:Name="label1" Content="Codigo del producto" HorizontalAlignment="Left" Margin="25.771,73.763,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="textBox1" HorizontalAlignment="Left" Height="23" Margin="156.305,76.723,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="406.611"/>
+        <Label x:Name="label2" Content="Cantidad de producto" HorizontalAlignment="Left" Margin="25.771,115.746,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="textBox2" HorizontalAlignment="Left" Height="23" Margin="156.305,118.706,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="406.611"/>
+        <Label x:Name="label3" Content="Cantidad a pagar" HorizontalAlignment="Left" Margin="25.771,156.205,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="textBox3" HorizontalAlignment="Left" Height="23" Margin="156.305,160.205,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="406.611"/>
+        <Button x:Name="button" Content="Aceptar" HorizontalAlignment="Left" Margin="487.916,223.381,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button x:Name="button1" Content="Agregar producto a la venta" HorizontalAlignment="Left" Margin="312.031,223.381,0,0" VerticalAlignment="Top" Width="160.496" RenderTransformOrigin="0.173,0.23"/>
+        <Image x:Name="image" HorizontalAlignment="Left" Height="53.435" Margin="47.145,204.802,0,0" VerticalAlignment="Top" Width="63.359" Source="Imagenes/Home-PNG-Image.png" Cursor="Hand"/>
+
+    </Grid>
+</Window>
