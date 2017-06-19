@@ -15,6 +15,205 @@ namespace Zapateria.interfazb.ServicioZapateriaReferenciab {
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Runtime.Serialization", "4.0.0.0")]
+    [System.Runtime.Serialization.DataContractAttribute(Name="viajeros", Namespace="http://tempuri.org/")]
+    [System.SerializableAttribute()]
+    public partial class viajeros : object, System.Runtime.Serialization.IExtensibleDataObject, System.ComponentModel.INotifyPropertyChanged {
+        
+        [System.NonSerializedAttribute()]
+        private System.Runtime.Serialization.ExtensionDataObject extensionDataField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string ApeViajero1Field;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string CorreoViajero1Field;
+        
+        private int Id_viajeroField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string NomViajero1Field;
+        
+        private int ProveedoresField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string TelefonoViajero1Field;
+        
+        [global::System.ComponentModel.BrowsableAttribute(false)]
+        public System.Runtime.Serialization.ExtensionDataObject ExtensionData {
+            get {
+                return this.extensionDataField;
+            }
+            set {
+                this.extensionDataField = value;
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute(EmitDefaultValue=false)]
+        public string ApeViajero1 {
+            get {
+                return this.ApeViajero1Field;
+            }
+            set {
+                if ((object.ReferenceEquals(this.ApeViajero1Field, value) != true)) {
+                    this.ApeViajero1Field = value;
+                    this.RaisePropertyChanged("ApeViajero1");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute(EmitDefaultValue=false)]
+        public string CorreoViajero1 {
+            get {
+                return this.CorreoViajero1Field;
+            }
+            set {
+                if ((object.ReferenceEquals(this.CorreoViajero1Field, value) != true)) {
+                    this.CorreoViajero1Field = value;
+                    this.RaisePropertyChanged("CorreoViajero1");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute(IsRequired=true)]
+        public int Id_viajero {
+            get {
+                return this.Id_viajeroField;
+            }
+            set {
+                if ((this.Id_viajeroField.Equals(value) != true)) {
+                    this.Id_viajeroField = value;
+                    this.RaisePropertyChanged("Id_viajero");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute(EmitDefaultValue=false)]
+        public string NomViajero1 {
+            get {
+                return this.NomViajero1Field;
+            }
+            set {
+                if ((object.ReferenceEquals(this.NomViajero1Field, value) != true)) {
+                    this.NomViajero1Field = value;
+                    this.RaisePropertyChanged("NomViajero1");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute(IsRequired=true)]
+        public int Proveedores {
+            get {
+                return this.ProveedoresField;
+            }
+            set {
+                if ((this.ProveedoresField.Equals(value) != true)) {
+                    this.ProveedoresField = value;
+                    this.RaisePropertyChanged("Proveedores");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute(EmitDefaultValue=false)]
+        public string TelefonoViajero1 {
+            get {
+                return this.TelefonoViajero1Field;
+            }
+            set {
+                if ((object.ReferenceEquals(this.TelefonoViajero1Field, value) != true)) {
+                    this.TelefonoViajero1Field = value;
+                    this.RaisePropertyChanged("TelefonoViajero1");
+                }
+            }
+        }
+        
+        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
+        
+        protected void RaisePropertyChanged(string propertyName) {
+            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
+            if ((propertyChanged != null)) {
+                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
+            }
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Runtime.Serialization", "4.0.0.0")]
+    [System.Runtime.Serialization.DataContractAttribute(Name="usuarios", Namespace="http://tempuri.org/")]
+    [System.SerializableAttribute()]
+    public partial class usuarios : object, System.Runtime.Serialization.IExtensibleDataObject, System.ComponentModel.INotifyPropertyChanged {
+        
+        [System.NonSerializedAttribute()]
+        private System.Runtime.Serialization.ExtensionDataObject extensionDataField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string ContraseñaField;
+        
+        private int Id_usuarioField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string UsuarioField;
+        
+        [global::System.ComponentModel.BrowsableAttribute(false)]
+        public System.Runtime.Serialization.ExtensionDataObject ExtensionData {
+            get {
+                return this.extensionDataField;
+            }
+            set {
+                this.extensionDataField = value;
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute(EmitDefaultValue=false)]
+        public string Contraseña {
+            get {
+                return this.ContraseñaField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.ContraseñaField, value) != true)) {
+                    this.ContraseñaField = value;
+                    this.RaisePropertyChanged("Contraseña");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute(IsRequired=true)]
+        public int Id_usuario {
+            get {
+                return this.Id_usuarioField;
+            }
+            set {
+                if ((this.Id_usuarioField.Equals(value) != true)) {
+                    this.Id_usuarioField = value;
+                    this.RaisePropertyChanged("Id_usuario");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute(EmitDefaultValue=false)]
+        public string Usuario {
+            get {
+                return this.UsuarioField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.UsuarioField, value) != true)) {
+                    this.UsuarioField = value;
+                    this.RaisePropertyChanged("Usuario");
+                }
+            }
+        }
+        
+        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
+        
+        protected void RaisePropertyChanged(string propertyName) {
+            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
+            if ((propertyChanged != null)) {
+                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
+            }
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Runtime.Serialization", "4.0.0.0")]
     [System.Runtime.Serialization.CollectionDataContractAttribute(Name="ArrayOfCargos", Namespace="http://tempuri.org/", ItemName="cargos")]
     [System.SerializableAttribute()]
     public class ArrayOfCargos : System.Collections.Generic.List<Zapateria.interfazb.ServicioZapateriaReferenciab.cargos> {
@@ -1344,132 +1543,43 @@ namespace Zapateria.interfazb.ServicioZapateriaReferenciab {
     public class ArrayOfViajeros : System.Collections.Generic.List<Zapateria.interfazb.ServicioZapateriaReferenciab.viajeros> {
     }
     
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Runtime.Serialization", "4.0.0.0")]
-    [System.Runtime.Serialization.DataContractAttribute(Name="viajeros", Namespace="http://tempuri.org/")]
-    [System.SerializableAttribute()]
-    public partial class viajeros : object, System.Runtime.Serialization.IExtensibleDataObject, System.ComponentModel.INotifyPropertyChanged {
-        
-        [System.NonSerializedAttribute()]
-        private System.Runtime.Serialization.ExtensionDataObject extensionDataField;
-        
-        [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private string ApeViajero1Field;
-        
-        [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private string CorreoViajero1Field;
-        
-        private int Id_viajeroField;
-        
-        [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private string NomViajero1Field;
-        
-        private int ProveedoresField;
-        
-        [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private string TelefonoViajero1Field;
-        
-        [global::System.ComponentModel.BrowsableAttribute(false)]
-        public System.Runtime.Serialization.ExtensionDataObject ExtensionData {
-            get {
-                return this.extensionDataField;
-            }
-            set {
-                this.extensionDataField = value;
-            }
-        }
-        
-        [System.Runtime.Serialization.DataMemberAttribute(EmitDefaultValue=false)]
-        public string ApeViajero1 {
-            get {
-                return this.ApeViajero1Field;
-            }
-            set {
-                if ((object.ReferenceEquals(this.ApeViajero1Field, value) != true)) {
-                    this.ApeViajero1Field = value;
-                    this.RaisePropertyChanged("ApeViajero1");
-                }
-            }
-        }
-        
-        [System.Runtime.Serialization.DataMemberAttribute(EmitDefaultValue=false)]
-        public string CorreoViajero1 {
-            get {
-                return this.CorreoViajero1Field;
-            }
-            set {
-                if ((object.ReferenceEquals(this.CorreoViajero1Field, value) != true)) {
-                    this.CorreoViajero1Field = value;
-                    this.RaisePropertyChanged("CorreoViajero1");
-                }
-            }
-        }
-        
-        [System.Runtime.Serialization.DataMemberAttribute(IsRequired=true)]
-        public int Id_viajero {
-            get {
-                return this.Id_viajeroField;
-            }
-            set {
-                if ((this.Id_viajeroField.Equals(value) != true)) {
-                    this.Id_viajeroField = value;
-                    this.RaisePropertyChanged("Id_viajero");
-                }
-            }
-        }
-        
-        [System.Runtime.Serialization.DataMemberAttribute(EmitDefaultValue=false)]
-        public string NomViajero1 {
-            get {
-                return this.NomViajero1Field;
-            }
-            set {
-                if ((object.ReferenceEquals(this.NomViajero1Field, value) != true)) {
-                    this.NomViajero1Field = value;
-                    this.RaisePropertyChanged("NomViajero1");
-                }
-            }
-        }
-        
-        [System.Runtime.Serialization.DataMemberAttribute(IsRequired=true)]
-        public int Proveedores {
-            get {
-                return this.ProveedoresField;
-            }
-            set {
-                if ((this.ProveedoresField.Equals(value) != true)) {
-                    this.ProveedoresField = value;
-                    this.RaisePropertyChanged("Proveedores");
-                }
-            }
-        }
-        
-        [System.Runtime.Serialization.DataMemberAttribute(EmitDefaultValue=false)]
-        public string TelefonoViajero1 {
-            get {
-                return this.TelefonoViajero1Field;
-            }
-            set {
-                if ((object.ReferenceEquals(this.TelefonoViajero1Field, value) != true)) {
-                    this.TelefonoViajero1Field = value;
-                    this.RaisePropertyChanged("TelefonoViajero1");
-                }
-            }
-        }
-        
-        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
-        
-        protected void RaisePropertyChanged(string propertyName) {
-            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
-            if ((propertyChanged != null)) {
-                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
-            }
-        }
-    }
-    
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
     [System.ServiceModel.ServiceContractAttribute(ConfigurationName="ServicioZapateriaReferenciab.zapateriawsSoap")]
     public interface zapateriawsSoap {
+        
+        // CODEGEN: Se está generando un contrato de mensaje, ya que el nombre de elemento getViajerosByIdResult del espacio de nombres http://tempuri.org/ no está marcado para aceptar valores nil.
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/getViajerosById", ReplyAction="*")]
+        Zapateria.interfazb.ServicioZapateriaReferenciab.getViajerosByIdResponse getViajerosById(Zapateria.interfazb.ServicioZapateriaReferenciab.getViajerosByIdRequest request);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/getViajerosById", ReplyAction="*")]
+        System.Threading.Tasks.Task<Zapateria.interfazb.ServicioZapateriaReferenciab.getViajerosByIdResponse> getViajerosByIdAsync(Zapateria.interfazb.ServicioZapateriaReferenciab.getViajerosByIdRequest request);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/deleteViajeros", ReplyAction="*")]
+        int deleteViajeros(int id_viajero);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/deleteViajeros", ReplyAction="*")]
+        System.Threading.Tasks.Task<int> deleteViajerosAsync(int id_viajero);
+        
+        // CODEGEN: Se está generando un contrato de mensaje, ya que el nombre de elemento NomViajero del espacio de nombres http://tempuri.org/ no está marcado para aceptar valores nil.
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/updateViajeros", ReplyAction="*")]
+        Zapateria.interfazb.ServicioZapateriaReferenciab.updateViajerosResponse updateViajeros(Zapateria.interfazb.ServicioZapateriaReferenciab.updateViajerosRequest request);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/updateViajeros", ReplyAction="*")]
+        System.Threading.Tasks.Task<Zapateria.interfazb.ServicioZapateriaReferenciab.updateViajerosResponse> updateViajerosAsync(Zapateria.interfazb.ServicioZapateriaReferenciab.updateViajerosRequest request);
+        
+        // CODEGEN: Se está generando un contrato de mensaje, ya que el nombre de elemento usuario del espacio de nombres http://tempuri.org/ no está marcado para aceptar valores nil.
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/agregarUsuario", ReplyAction="*")]
+        Zapateria.interfazb.ServicioZapateriaReferenciab.agregarUsuarioResponse agregarUsuario(Zapateria.interfazb.ServicioZapateriaReferenciab.agregarUsuarioRequest request);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/agregarUsuario", ReplyAction="*")]
+        System.Threading.Tasks.Task<Zapateria.interfazb.ServicioZapateriaReferenciab.agregarUsuarioResponse> agregarUsuarioAsync(Zapateria.interfazb.ServicioZapateriaReferenciab.agregarUsuarioRequest request);
+        
+        // CODEGEN: Se está generando un contrato de mensaje, ya que el nombre de elemento usuario del espacio de nombres http://tempuri.org/ no está marcado para aceptar valores nil.
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/login", ReplyAction="*")]
+        Zapateria.interfazb.ServicioZapateriaReferenciab.loginResponse login(Zapateria.interfazb.ServicioZapateriaReferenciab.loginRequest request);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/login", ReplyAction="*")]
+        System.Threading.Tasks.Task<Zapateria.interfazb.ServicioZapateriaReferenciab.loginResponse> loginAsync(Zapateria.interfazb.ServicioZapateriaReferenciab.loginRequest request);
         
         // CODEGEN: Se está generando un contrato de mensaje, ya que el nombre de elemento nombre del espacio de nombres http://tempuri.org/ no está marcado para aceptar valores nil.
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/agregarCargo", ReplyAction="*")]
@@ -1525,6 +1635,13 @@ namespace Zapateria.interfazb.ServicioZapateriaReferenciab {
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/gatClientesById", ReplyAction="*")]
         System.Threading.Tasks.Task<Zapateria.interfazb.ServicioZapateriaReferenciab.gatClientesByIdResponse> gatClientesByIdAsync(Zapateria.interfazb.ServicioZapateriaReferenciab.gatClientesByIdRequest request);
+        
+        // CODEGEN: Se está generando un contrato de mensaje, ya que el nombre de elemento param del espacio de nombres http://tempuri.org/ no está marcado para aceptar valores nil.
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/getClienteByField", ReplyAction="*")]
+        Zapateria.interfazb.ServicioZapateriaReferenciab.getClienteByFieldResponse getClienteByField(Zapateria.interfazb.ServicioZapateriaReferenciab.getClienteByFieldRequest request);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/getClienteByField", ReplyAction="*")]
+        System.Threading.Tasks.Task<Zapateria.interfazb.ServicioZapateriaReferenciab.getClienteByFieldResponse> getClienteByFieldAsync(Zapateria.interfazb.ServicioZapateriaReferenciab.getClienteByFieldRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/deleteClientes", ReplyAction="*")]
         int deleteClientes(int id_clientes);
@@ -1882,26 +1999,306 @@ namespace Zapateria.interfazb.ServicioZapateriaReferenciab {
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/getAllViajeros", ReplyAction="*")]
         System.Threading.Tasks.Task<Zapateria.interfazb.ServicioZapateriaReferenciab.getAllViajerosResponse> getAllViajerosAsync(Zapateria.interfazb.ServicioZapateriaReferenciab.getAllViajerosRequest request);
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+    [System.ServiceModel.MessageContractAttribute(IsWrapped=false)]
+    public partial class getViajerosByIdRequest {
         
-        // CODEGEN: Se está generando un contrato de mensaje, ya que el nombre de elemento getViajerosByIdResult del espacio de nombres http://tempuri.org/ no está marcado para aceptar valores nil.
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/getViajerosById", ReplyAction="*")]
-        Zapateria.interfazb.ServicioZapateriaReferenciab.getViajerosByIdResponse getViajerosById(Zapateria.interfazb.ServicioZapateriaReferenciab.getViajerosByIdRequest request);
+        [System.ServiceModel.MessageBodyMemberAttribute(Name="getViajerosById", Namespace="http://tempuri.org/", Order=0)]
+        public Zapateria.interfazb.ServicioZapateriaReferenciab.getViajerosByIdRequestBody Body;
         
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/getViajerosById", ReplyAction="*")]
-        System.Threading.Tasks.Task<Zapateria.interfazb.ServicioZapateriaReferenciab.getViajerosByIdResponse> getViajerosByIdAsync(Zapateria.interfazb.ServicioZapateriaReferenciab.getViajerosByIdRequest request);
+        public getViajerosByIdRequest() {
+        }
         
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/deleteViajeros", ReplyAction="*")]
-        int deleteViajeros(int id_viajero);
+        public getViajerosByIdRequest(Zapateria.interfazb.ServicioZapateriaReferenciab.getViajerosByIdRequestBody Body) {
+            this.Body = Body;
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+    [System.Runtime.Serialization.DataContractAttribute(Namespace="http://tempuri.org/")]
+    public partial class getViajerosByIdRequestBody {
         
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/deleteViajeros", ReplyAction="*")]
-        System.Threading.Tasks.Task<int> deleteViajerosAsync(int id_viajero);
+        [System.Runtime.Serialization.DataMemberAttribute(Order=0)]
+        public int id_viajero;
         
-        // CODEGEN: Se está generando un contrato de mensaje, ya que el nombre de elemento NomViajero del espacio de nombres http://tempuri.org/ no está marcado para aceptar valores nil.
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/updateViajeros", ReplyAction="*")]
-        Zapateria.interfazb.ServicioZapateriaReferenciab.updateViajerosResponse updateViajeros(Zapateria.interfazb.ServicioZapateriaReferenciab.updateViajerosRequest request);
+        public getViajerosByIdRequestBody() {
+        }
         
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/updateViajeros", ReplyAction="*")]
-        System.Threading.Tasks.Task<Zapateria.interfazb.ServicioZapateriaReferenciab.updateViajerosResponse> updateViajerosAsync(Zapateria.interfazb.ServicioZapateriaReferenciab.updateViajerosRequest request);
+        public getViajerosByIdRequestBody(int id_viajero) {
+            this.id_viajero = id_viajero;
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+    [System.ServiceModel.MessageContractAttribute(IsWrapped=false)]
+    public partial class getViajerosByIdResponse {
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Name="getViajerosByIdResponse", Namespace="http://tempuri.org/", Order=0)]
+        public Zapateria.interfazb.ServicioZapateriaReferenciab.getViajerosByIdResponseBody Body;
+        
+        public getViajerosByIdResponse() {
+        }
+        
+        public getViajerosByIdResponse(Zapateria.interfazb.ServicioZapateriaReferenciab.getViajerosByIdResponseBody Body) {
+            this.Body = Body;
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+    [System.Runtime.Serialization.DataContractAttribute(Namespace="http://tempuri.org/")]
+    public partial class getViajerosByIdResponseBody {
+        
+        [System.Runtime.Serialization.DataMemberAttribute(EmitDefaultValue=false, Order=0)]
+        public Zapateria.interfazb.ServicioZapateriaReferenciab.viajeros getViajerosByIdResult;
+        
+        public getViajerosByIdResponseBody() {
+        }
+        
+        public getViajerosByIdResponseBody(Zapateria.interfazb.ServicioZapateriaReferenciab.viajeros getViajerosByIdResult) {
+            this.getViajerosByIdResult = getViajerosByIdResult;
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+    [System.ServiceModel.MessageContractAttribute(IsWrapped=false)]
+    public partial class updateViajerosRequest {
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Name="updateViajeros", Namespace="http://tempuri.org/", Order=0)]
+        public Zapateria.interfazb.ServicioZapateriaReferenciab.updateViajerosRequestBody Body;
+        
+        public updateViajerosRequest() {
+        }
+        
+        public updateViajerosRequest(Zapateria.interfazb.ServicioZapateriaReferenciab.updateViajerosRequestBody Body) {
+            this.Body = Body;
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+    [System.Runtime.Serialization.DataContractAttribute(Namespace="http://tempuri.org/")]
+    public partial class updateViajerosRequestBody {
+        
+        [System.Runtime.Serialization.DataMemberAttribute(Order=0)]
+        public int id_viajero;
+        
+        [System.Runtime.Serialization.DataMemberAttribute(EmitDefaultValue=false, Order=1)]
+        public string NomViajero;
+        
+        [System.Runtime.Serialization.DataMemberAttribute(EmitDefaultValue=false, Order=2)]
+        public string ApeViajero;
+        
+        [System.Runtime.Serialization.DataMemberAttribute(EmitDefaultValue=false, Order=3)]
+        public string TelefonoViajero;
+        
+        [System.Runtime.Serialization.DataMemberAttribute(Order=4)]
+        public int proveedores;
+        
+        [System.Runtime.Serialization.DataMemberAttribute(EmitDefaultValue=false, Order=5)]
+        public string CorreoViajero;
+        
+        public updateViajerosRequestBody() {
+        }
+        
+        public updateViajerosRequestBody(int id_viajero, string NomViajero, string ApeViajero, string TelefonoViajero, int proveedores, string CorreoViajero) {
+            this.id_viajero = id_viajero;
+            this.NomViajero = NomViajero;
+            this.ApeViajero = ApeViajero;
+            this.TelefonoViajero = TelefonoViajero;
+            this.proveedores = proveedores;
+            this.CorreoViajero = CorreoViajero;
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+    [System.ServiceModel.MessageContractAttribute(IsWrapped=false)]
+    public partial class updateViajerosResponse {
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Name="updateViajerosResponse", Namespace="http://tempuri.org/", Order=0)]
+        public Zapateria.interfazb.ServicioZapateriaReferenciab.updateViajerosResponseBody Body;
+        
+        public updateViajerosResponse() {
+        }
+        
+        public updateViajerosResponse(Zapateria.interfazb.ServicioZapateriaReferenciab.updateViajerosResponseBody Body) {
+            this.Body = Body;
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+    [System.Runtime.Serialization.DataContractAttribute(Namespace="http://tempuri.org/")]
+    public partial class updateViajerosResponseBody {
+        
+        [System.Runtime.Serialization.DataMemberAttribute(Order=0)]
+        public int updateViajerosResult;
+        
+        public updateViajerosResponseBody() {
+        }
+        
+        public updateViajerosResponseBody(int updateViajerosResult) {
+            this.updateViajerosResult = updateViajerosResult;
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+    [System.ServiceModel.MessageContractAttribute(IsWrapped=false)]
+    public partial class agregarUsuarioRequest {
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Name="agregarUsuario", Namespace="http://tempuri.org/", Order=0)]
+        public Zapateria.interfazb.ServicioZapateriaReferenciab.agregarUsuarioRequestBody Body;
+        
+        public agregarUsuarioRequest() {
+        }
+        
+        public agregarUsuarioRequest(Zapateria.interfazb.ServicioZapateriaReferenciab.agregarUsuarioRequestBody Body) {
+            this.Body = Body;
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+    [System.Runtime.Serialization.DataContractAttribute(Namespace="http://tempuri.org/")]
+    public partial class agregarUsuarioRequestBody {
+        
+        [System.Runtime.Serialization.DataMemberAttribute(EmitDefaultValue=false, Order=0)]
+        public string usuario;
+        
+        [System.Runtime.Serialization.DataMemberAttribute(EmitDefaultValue=false, Order=1)]
+        public string contraseña;
+        
+        public agregarUsuarioRequestBody() {
+        }
+        
+        public agregarUsuarioRequestBody(string usuario, string contraseña) {
+            this.usuario = usuario;
+            this.contraseña = contraseña;
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+    [System.ServiceModel.MessageContractAttribute(IsWrapped=false)]
+    public partial class agregarUsuarioResponse {
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Name="agregarUsuarioResponse", Namespace="http://tempuri.org/", Order=0)]
+        public Zapateria.interfazb.ServicioZapateriaReferenciab.agregarUsuarioResponseBody Body;
+        
+        public agregarUsuarioResponse() {
+        }
+        
+        public agregarUsuarioResponse(Zapateria.interfazb.ServicioZapateriaReferenciab.agregarUsuarioResponseBody Body) {
+            this.Body = Body;
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+    [System.Runtime.Serialization.DataContractAttribute(Namespace="http://tempuri.org/")]
+    public partial class agregarUsuarioResponseBody {
+        
+        [System.Runtime.Serialization.DataMemberAttribute(Order=0)]
+        public int agregarUsuarioResult;
+        
+        public agregarUsuarioResponseBody() {
+        }
+        
+        public agregarUsuarioResponseBody(int agregarUsuarioResult) {
+            this.agregarUsuarioResult = agregarUsuarioResult;
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+    [System.ServiceModel.MessageContractAttribute(IsWrapped=false)]
+    public partial class loginRequest {
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Name="login", Namespace="http://tempuri.org/", Order=0)]
+        public Zapateria.interfazb.ServicioZapateriaReferenciab.loginRequestBody Body;
+        
+        public loginRequest() {
+        }
+        
+        public loginRequest(Zapateria.interfazb.ServicioZapateriaReferenciab.loginRequestBody Body) {
+            this.Body = Body;
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+    [System.Runtime.Serialization.DataContractAttribute(Namespace="http://tempuri.org/")]
+    public partial class loginRequestBody {
+        
+        [System.Runtime.Serialization.DataMemberAttribute(EmitDefaultValue=false, Order=0)]
+        public string usuario;
+        
+        [System.Runtime.Serialization.DataMemberAttribute(EmitDefaultValue=false, Order=1)]
+        public string contraseña;
+        
+        public loginRequestBody() {
+        }
+        
+        public loginRequestBody(string usuario, string contraseña) {
+            this.usuario = usuario;
+            this.contraseña = contraseña;
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+    [System.ServiceModel.MessageContractAttribute(IsWrapped=false)]
+    public partial class loginResponse {
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Name="loginResponse", Namespace="http://tempuri.org/", Order=0)]
+        public Zapateria.interfazb.ServicioZapateriaReferenciab.loginResponseBody Body;
+        
+        public loginResponse() {
+        }
+        
+        public loginResponse(Zapateria.interfazb.ServicioZapateriaReferenciab.loginResponseBody Body) {
+            this.Body = Body;
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+    [System.Runtime.Serialization.DataContractAttribute(Namespace="http://tempuri.org/")]
+    public partial class loginResponseBody {
+        
+        [System.Runtime.Serialization.DataMemberAttribute(EmitDefaultValue=false, Order=0)]
+        public Zapateria.interfazb.ServicioZapateriaReferenciab.usuarios loginResult;
+        
+        public loginResponseBody() {
+        }
+        
+        public loginResponseBody(Zapateria.interfazb.ServicioZapateriaReferenciab.usuarios loginResult) {
+            this.loginResult = loginResult;
+        }
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
@@ -2395,6 +2792,74 @@ namespace Zapateria.interfazb.ServicioZapateriaReferenciab {
         
         public gatClientesByIdResponseBody(Zapateria.interfazb.ServicioZapateriaReferenciab.clientes gatClientesByIdResult) {
             this.gatClientesByIdResult = gatClientesByIdResult;
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+    [System.ServiceModel.MessageContractAttribute(IsWrapped=false)]
+    public partial class getClienteByFieldRequest {
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Name="getClienteByField", Namespace="http://tempuri.org/", Order=0)]
+        public Zapateria.interfazb.ServicioZapateriaReferenciab.getClienteByFieldRequestBody Body;
+        
+        public getClienteByFieldRequest() {
+        }
+        
+        public getClienteByFieldRequest(Zapateria.interfazb.ServicioZapateriaReferenciab.getClienteByFieldRequestBody Body) {
+            this.Body = Body;
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+    [System.Runtime.Serialization.DataContractAttribute(Namespace="http://tempuri.org/")]
+    public partial class getClienteByFieldRequestBody {
+        
+        [System.Runtime.Serialization.DataMemberAttribute(EmitDefaultValue=false, Order=0)]
+        public string param;
+        
+        public getClienteByFieldRequestBody() {
+        }
+        
+        public getClienteByFieldRequestBody(string param) {
+            this.param = param;
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+    [System.ServiceModel.MessageContractAttribute(IsWrapped=false)]
+    public partial class getClienteByFieldResponse {
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Name="getClienteByFieldResponse", Namespace="http://tempuri.org/", Order=0)]
+        public Zapateria.interfazb.ServicioZapateriaReferenciab.getClienteByFieldResponseBody Body;
+        
+        public getClienteByFieldResponse() {
+        }
+        
+        public getClienteByFieldResponse(Zapateria.interfazb.ServicioZapateriaReferenciab.getClienteByFieldResponseBody Body) {
+            this.Body = Body;
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+    [System.Runtime.Serialization.DataContractAttribute(Namespace="http://tempuri.org/")]
+    public partial class getClienteByFieldResponseBody {
+        
+        [System.Runtime.Serialization.DataMemberAttribute(EmitDefaultValue=false, Order=0)]
+        public Zapateria.interfazb.ServicioZapateriaReferenciab.ArrayOfClientes getClienteByFieldResult;
+        
+        public getClienteByFieldResponseBody() {
+        }
+        
+        public getClienteByFieldResponseBody(Zapateria.interfazb.ServicioZapateriaReferenciab.ArrayOfClientes getClienteByFieldResult) {
+            this.getClienteByFieldResult = getClienteByFieldResult;
         }
     }
     
@@ -4753,162 +5218,6 @@ namespace Zapateria.interfazb.ServicioZapateriaReferenciab {
         }
     }
     
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(IsWrapped=false)]
-    public partial class getViajerosByIdRequest {
-        
-        [System.ServiceModel.MessageBodyMemberAttribute(Name="getViajerosById", Namespace="http://tempuri.org/", Order=0)]
-        public Zapateria.interfazb.ServicioZapateriaReferenciab.getViajerosByIdRequestBody Body;
-        
-        public getViajerosByIdRequest() {
-        }
-        
-        public getViajerosByIdRequest(Zapateria.interfazb.ServicioZapateriaReferenciab.getViajerosByIdRequestBody Body) {
-            this.Body = Body;
-        }
-    }
-    
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.Runtime.Serialization.DataContractAttribute(Namespace="http://tempuri.org/")]
-    public partial class getViajerosByIdRequestBody {
-        
-        [System.Runtime.Serialization.DataMemberAttribute(Order=0)]
-        public int id_viajero;
-        
-        public getViajerosByIdRequestBody() {
-        }
-        
-        public getViajerosByIdRequestBody(int id_viajero) {
-            this.id_viajero = id_viajero;
-        }
-    }
-    
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(IsWrapped=false)]
-    public partial class getViajerosByIdResponse {
-        
-        [System.ServiceModel.MessageBodyMemberAttribute(Name="getViajerosByIdResponse", Namespace="http://tempuri.org/", Order=0)]
-        public Zapateria.interfazb.ServicioZapateriaReferenciab.getViajerosByIdResponseBody Body;
-        
-        public getViajerosByIdResponse() {
-        }
-        
-        public getViajerosByIdResponse(Zapateria.interfazb.ServicioZapateriaReferenciab.getViajerosByIdResponseBody Body) {
-            this.Body = Body;
-        }
-    }
-    
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.Runtime.Serialization.DataContractAttribute(Namespace="http://tempuri.org/")]
-    public partial class getViajerosByIdResponseBody {
-        
-        [System.Runtime.Serialization.DataMemberAttribute(EmitDefaultValue=false, Order=0)]
-        public Zapateria.interfazb.ServicioZapateriaReferenciab.viajeros getViajerosByIdResult;
-        
-        public getViajerosByIdResponseBody() {
-        }
-        
-        public getViajerosByIdResponseBody(Zapateria.interfazb.ServicioZapateriaReferenciab.viajeros getViajerosByIdResult) {
-            this.getViajerosByIdResult = getViajerosByIdResult;
-        }
-    }
-    
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(IsWrapped=false)]
-    public partial class updateViajerosRequest {
-        
-        [System.ServiceModel.MessageBodyMemberAttribute(Name="updateViajeros", Namespace="http://tempuri.org/", Order=0)]
-        public Zapateria.interfazb.ServicioZapateriaReferenciab.updateViajerosRequestBody Body;
-        
-        public updateViajerosRequest() {
-        }
-        
-        public updateViajerosRequest(Zapateria.interfazb.ServicioZapateriaReferenciab.updateViajerosRequestBody Body) {
-            this.Body = Body;
-        }
-    }
-    
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.Runtime.Serialization.DataContractAttribute(Namespace="http://tempuri.org/")]
-    public partial class updateViajerosRequestBody {
-        
-        [System.Runtime.Serialization.DataMemberAttribute(Order=0)]
-        public int id_viajero;
-        
-        [System.Runtime.Serialization.DataMemberAttribute(EmitDefaultValue=false, Order=1)]
-        public string NomViajero;
-        
-        [System.Runtime.Serialization.DataMemberAttribute(EmitDefaultValue=false, Order=2)]
-        public string ApeViajero;
-        
-        [System.Runtime.Serialization.DataMemberAttribute(EmitDefaultValue=false, Order=3)]
-        public string TelefonoViajero;
-        
-        [System.Runtime.Serialization.DataMemberAttribute(Order=4)]
-        public int proveedores;
-        
-        [System.Runtime.Serialization.DataMemberAttribute(EmitDefaultValue=false, Order=5)]
-        public string CorreoViajero;
-        
-        public updateViajerosRequestBody() {
-        }
-        
-        public updateViajerosRequestBody(int id_viajero, string NomViajero, string ApeViajero, string TelefonoViajero, int proveedores, string CorreoViajero) {
-            this.id_viajero = id_viajero;
-            this.NomViajero = NomViajero;
-            this.ApeViajero = ApeViajero;
-            this.TelefonoViajero = TelefonoViajero;
-            this.proveedores = proveedores;
-            this.CorreoViajero = CorreoViajero;
-        }
-    }
-    
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(IsWrapped=false)]
-    public partial class updateViajerosResponse {
-        
-        [System.ServiceModel.MessageBodyMemberAttribute(Name="updateViajerosResponse", Namespace="http://tempuri.org/", Order=0)]
-        public Zapateria.interfazb.ServicioZapateriaReferenciab.updateViajerosResponseBody Body;
-        
-        public updateViajerosResponse() {
-        }
-        
-        public updateViajerosResponse(Zapateria.interfazb.ServicioZapateriaReferenciab.updateViajerosResponseBody Body) {
-            this.Body = Body;
-        }
-    }
-    
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.Runtime.Serialization.DataContractAttribute(Namespace="http://tempuri.org/")]
-    public partial class updateViajerosResponseBody {
-        
-        [System.Runtime.Serialization.DataMemberAttribute(Order=0)]
-        public int updateViajerosResult;
-        
-        public updateViajerosResponseBody() {
-        }
-        
-        public updateViajerosResponseBody(int updateViajerosResult) {
-            this.updateViajerosResult = updateViajerosResult;
-        }
-    }
-    
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
     public interface zapateriawsSoapChannel : Zapateria.interfazb.ServicioZapateriaReferenciab.zapateriawsSoap, System.ServiceModel.IClientChannel {
     }
@@ -4934,6 +5243,128 @@ namespace Zapateria.interfazb.ServicioZapateriaReferenciab {
         
         public zapateriawsSoapClient(System.ServiceModel.Channels.Binding binding, System.ServiceModel.EndpointAddress remoteAddress) : 
                 base(binding, remoteAddress) {
+        }
+        
+        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+        Zapateria.interfazb.ServicioZapateriaReferenciab.getViajerosByIdResponse Zapateria.interfazb.ServicioZapateriaReferenciab.zapateriawsSoap.getViajerosById(Zapateria.interfazb.ServicioZapateriaReferenciab.getViajerosByIdRequest request) {
+            return base.Channel.getViajerosById(request);
+        }
+        
+        public Zapateria.interfazb.ServicioZapateriaReferenciab.viajeros getViajerosById(int id_viajero) {
+            Zapateria.interfazb.ServicioZapateriaReferenciab.getViajerosByIdRequest inValue = new Zapateria.interfazb.ServicioZapateriaReferenciab.getViajerosByIdRequest();
+            inValue.Body = new Zapateria.interfazb.ServicioZapateriaReferenciab.getViajerosByIdRequestBody();
+            inValue.Body.id_viajero = id_viajero;
+            Zapateria.interfazb.ServicioZapateriaReferenciab.getViajerosByIdResponse retVal = ((Zapateria.interfazb.ServicioZapateriaReferenciab.zapateriawsSoap)(this)).getViajerosById(inValue);
+            return retVal.Body.getViajerosByIdResult;
+        }
+        
+        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+        System.Threading.Tasks.Task<Zapateria.interfazb.ServicioZapateriaReferenciab.getViajerosByIdResponse> Zapateria.interfazb.ServicioZapateriaReferenciab.zapateriawsSoap.getViajerosByIdAsync(Zapateria.interfazb.ServicioZapateriaReferenciab.getViajerosByIdRequest request) {
+            return base.Channel.getViajerosByIdAsync(request);
+        }
+        
+        public System.Threading.Tasks.Task<Zapateria.interfazb.ServicioZapateriaReferenciab.getViajerosByIdResponse> getViajerosByIdAsync(int id_viajero) {
+            Zapateria.interfazb.ServicioZapateriaReferenciab.getViajerosByIdRequest inValue = new Zapateria.interfazb.ServicioZapateriaReferenciab.getViajerosByIdRequest();
+            inValue.Body = new Zapateria.interfazb.ServicioZapateriaReferenciab.getViajerosByIdRequestBody();
+            inValue.Body.id_viajero = id_viajero;
+            return ((Zapateria.interfazb.ServicioZapateriaReferenciab.zapateriawsSoap)(this)).getViajerosByIdAsync(inValue);
+        }
+        
+        public int deleteViajeros(int id_viajero) {
+            return base.Channel.deleteViajeros(id_viajero);
+        }
+        
+        public System.Threading.Tasks.Task<int> deleteViajerosAsync(int id_viajero) {
+            return base.Channel.deleteViajerosAsync(id_viajero);
+        }
+        
+        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+        Zapateria.interfazb.ServicioZapateriaReferenciab.updateViajerosResponse Zapateria.interfazb.ServicioZapateriaReferenciab.zapateriawsSoap.updateViajeros(Zapateria.interfazb.ServicioZapateriaReferenciab.updateViajerosRequest request) {
+            return base.Channel.updateViajeros(request);
+        }
+        
+        public int updateViajeros(int id_viajero, string NomViajero, string ApeViajero, string TelefonoViajero, int proveedores, string CorreoViajero) {
+            Zapateria.interfazb.ServicioZapateriaReferenciab.updateViajerosRequest inValue = new Zapateria.interfazb.ServicioZapateriaReferenciab.updateViajerosRequest();
+            inValue.Body = new Zapateria.interfazb.ServicioZapateriaReferenciab.updateViajerosRequestBody();
+            inValue.Body.id_viajero = id_viajero;
+            inValue.Body.NomViajero = NomViajero;
+            inValue.Body.ApeViajero = ApeViajero;
+            inValue.Body.TelefonoViajero = TelefonoViajero;
+            inValue.Body.proveedores = proveedores;
+            inValue.Body.CorreoViajero = CorreoViajero;
+            Zapateria.interfazb.ServicioZapateriaReferenciab.updateViajerosResponse retVal = ((Zapateria.interfazb.ServicioZapateriaReferenciab.zapateriawsSoap)(this)).updateViajeros(inValue);
+            return retVal.Body.updateViajerosResult;
+        }
+        
+        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+        System.Threading.Tasks.Task<Zapateria.interfazb.ServicioZapateriaReferenciab.updateViajerosResponse> Zapateria.interfazb.ServicioZapateriaReferenciab.zapateriawsSoap.updateViajerosAsync(Zapateria.interfazb.ServicioZapateriaReferenciab.updateViajerosRequest request) {
+            return base.Channel.updateViajerosAsync(request);
+        }
+        
+        public System.Threading.Tasks.Task<Zapateria.interfazb.ServicioZapateriaReferenciab.updateViajerosResponse> updateViajerosAsync(int id_viajero, string NomViajero, string ApeViajero, string TelefonoViajero, int proveedores, string CorreoViajero) {
+            Zapateria.interfazb.ServicioZapateriaReferenciab.updateViajerosRequest inValue = new Zapateria.interfazb.ServicioZapateriaReferenciab.updateViajerosRequest();
+            inValue.Body = new Zapateria.interfazb.ServicioZapateriaReferenciab.updateViajerosRequestBody();
+            inValue.Body.id_viajero = id_viajero;
+            inValue.Body.NomViajero = NomViajero;
+            inValue.Body.ApeViajero = ApeViajero;
+            inValue.Body.TelefonoViajero = TelefonoViajero;
+            inValue.Body.proveedores = proveedores;
+            inValue.Body.CorreoViajero = CorreoViajero;
+            return ((Zapateria.interfazb.ServicioZapateriaReferenciab.zapateriawsSoap)(this)).updateViajerosAsync(inValue);
+        }
+        
+        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+        Zapateria.interfazb.ServicioZapateriaReferenciab.agregarUsuarioResponse Zapateria.interfazb.ServicioZapateriaReferenciab.zapateriawsSoap.agregarUsuario(Zapateria.interfazb.ServicioZapateriaReferenciab.agregarUsuarioRequest request) {
+            return base.Channel.agregarUsuario(request);
+        }
+        
+        public int agregarUsuario(string usuario, string contraseña) {
+            Zapateria.interfazb.ServicioZapateriaReferenciab.agregarUsuarioRequest inValue = new Zapateria.interfazb.ServicioZapateriaReferenciab.agregarUsuarioRequest();
+            inValue.Body = new Zapateria.interfazb.ServicioZapateriaReferenciab.agregarUsuarioRequestBody();
+            inValue.Body.usuario = usuario;
+            inValue.Body.contraseña = contraseña;
+            Zapateria.interfazb.ServicioZapateriaReferenciab.agregarUsuarioResponse retVal = ((Zapateria.interfazb.ServicioZapateriaReferenciab.zapateriawsSoap)(this)).agregarUsuario(inValue);
+            return retVal.Body.agregarUsuarioResult;
+        }
+        
+        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+        System.Threading.Tasks.Task<Zapateria.interfazb.ServicioZapateriaReferenciab.agregarUsuarioResponse> Zapateria.interfazb.ServicioZapateriaReferenciab.zapateriawsSoap.agregarUsuarioAsync(Zapateria.interfazb.ServicioZapateriaReferenciab.agregarUsuarioRequest request) {
+            return base.Channel.agregarUsuarioAsync(request);
+        }
+        
+        public System.Threading.Tasks.Task<Zapateria.interfazb.ServicioZapateriaReferenciab.agregarUsuarioResponse> agregarUsuarioAsync(string usuario, string contraseña) {
+            Zapateria.interfazb.ServicioZapateriaReferenciab.agregarUsuarioRequest inValue = new Zapateria.interfazb.ServicioZapateriaReferenciab.agregarUsuarioRequest();
+            inValue.Body = new Zapateria.interfazb.ServicioZapateriaReferenciab.agregarUsuarioRequestBody();
+            inValue.Body.usuario = usuario;
+            inValue.Body.contraseña = contraseña;
+            return ((Zapateria.interfazb.ServicioZapateriaReferenciab.zapateriawsSoap)(this)).agregarUsuarioAsync(inValue);
+        }
+        
+        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+        Zapateria.interfazb.ServicioZapateriaReferenciab.loginResponse Zapateria.interfazb.ServicioZapateriaReferenciab.zapateriawsSoap.login(Zapateria.interfazb.ServicioZapateriaReferenciab.loginRequest request) {
+            return base.Channel.login(request);
+        }
+        
+        public Zapateria.interfazb.ServicioZapateriaReferenciab.usuarios login(string usuario, string contraseña) {
+            Zapateria.interfazb.ServicioZapateriaReferenciab.loginRequest inValue = new Zapateria.interfazb.ServicioZapateriaReferenciab.loginRequest();
+            inValue.Body = new Zapateria.interfazb.ServicioZapateriaReferenciab.loginRequestBody();
+            inValue.Body.usuario = usuario;
+            inValue.Body.contraseña = contraseña;
+            Zapateria.interfazb.ServicioZapateriaReferenciab.loginResponse retVal = ((Zapateria.interfazb.ServicioZapateriaReferenciab.zapateriawsSoap)(this)).login(inValue);
+            return retVal.Body.loginResult;
+        }
+        
+        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+        System.Threading.Tasks.Task<Zapateria.interfazb.ServicioZapateriaReferenciab.loginResponse> Zapateria.interfazb.ServicioZapateriaReferenciab.zapateriawsSoap.loginAsync(Zapateria.interfazb.ServicioZapateriaReferenciab.loginRequest request) {
+            return base.Channel.loginAsync(request);
+        }
+        
+        public System.Threading.Tasks.Task<Zapateria.interfazb.ServicioZapateriaReferenciab.loginResponse> loginAsync(string usuario, string contraseña) {
+            Zapateria.interfazb.ServicioZapateriaReferenciab.loginRequest inValue = new Zapateria.interfazb.ServicioZapateriaReferenciab.loginRequest();
+            inValue.Body = new Zapateria.interfazb.ServicioZapateriaReferenciab.loginRequestBody();
+            inValue.Body.usuario = usuario;
+            inValue.Body.contraseña = contraseña;
+            return ((Zapateria.interfazb.ServicioZapateriaReferenciab.zapateriawsSoap)(this)).loginAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
@@ -5129,6 +5560,31 @@ namespace Zapateria.interfazb.ServicioZapateriaReferenciab {
             inValue.Body = new Zapateria.interfazb.ServicioZapateriaReferenciab.gatClientesByIdRequestBody();
             inValue.Body.id_clientes = id_clientes;
             return ((Zapateria.interfazb.ServicioZapateriaReferenciab.zapateriawsSoap)(this)).gatClientesByIdAsync(inValue);
+        }
+        
+        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+        Zapateria.interfazb.ServicioZapateriaReferenciab.getClienteByFieldResponse Zapateria.interfazb.ServicioZapateriaReferenciab.zapateriawsSoap.getClienteByField(Zapateria.interfazb.ServicioZapateriaReferenciab.getClienteByFieldRequest request) {
+            return base.Channel.getClienteByField(request);
+        }
+        
+        public Zapateria.interfazb.ServicioZapateriaReferenciab.ArrayOfClientes getClienteByField(string param) {
+            Zapateria.interfazb.ServicioZapateriaReferenciab.getClienteByFieldRequest inValue = new Zapateria.interfazb.ServicioZapateriaReferenciab.getClienteByFieldRequest();
+            inValue.Body = new Zapateria.interfazb.ServicioZapateriaReferenciab.getClienteByFieldRequestBody();
+            inValue.Body.param = param;
+            Zapateria.interfazb.ServicioZapateriaReferenciab.getClienteByFieldResponse retVal = ((Zapateria.interfazb.ServicioZapateriaReferenciab.zapateriawsSoap)(this)).getClienteByField(inValue);
+            return retVal.Body.getClienteByFieldResult;
+        }
+        
+        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+        System.Threading.Tasks.Task<Zapateria.interfazb.ServicioZapateriaReferenciab.getClienteByFieldResponse> Zapateria.interfazb.ServicioZapateriaReferenciab.zapateriawsSoap.getClienteByFieldAsync(Zapateria.interfazb.ServicioZapateriaReferenciab.getClienteByFieldRequest request) {
+            return base.Channel.getClienteByFieldAsync(request);
+        }
+        
+        public System.Threading.Tasks.Task<Zapateria.interfazb.ServicioZapateriaReferenciab.getClienteByFieldResponse> getClienteByFieldAsync(string param) {
+            Zapateria.interfazb.ServicioZapateriaReferenciab.getClienteByFieldRequest inValue = new Zapateria.interfazb.ServicioZapateriaReferenciab.getClienteByFieldRequest();
+            inValue.Body = new Zapateria.interfazb.ServicioZapateriaReferenciab.getClienteByFieldRequestBody();
+            inValue.Body.param = param;
+            return ((Zapateria.interfazb.ServicioZapateriaReferenciab.zapateriawsSoap)(this)).getClienteByFieldAsync(inValue);
         }
         
         public int deleteClientes(int id_clientes) {
@@ -6194,74 +6650,6 @@ namespace Zapateria.interfazb.ServicioZapateriaReferenciab {
             Zapateria.interfazb.ServicioZapateriaReferenciab.getAllViajerosRequest inValue = new Zapateria.interfazb.ServicioZapateriaReferenciab.getAllViajerosRequest();
             inValue.Body = new Zapateria.interfazb.ServicioZapateriaReferenciab.getAllViajerosRequestBody();
             return ((Zapateria.interfazb.ServicioZapateriaReferenciab.zapateriawsSoap)(this)).getAllViajerosAsync(inValue);
-        }
-        
-        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        Zapateria.interfazb.ServicioZapateriaReferenciab.getViajerosByIdResponse Zapateria.interfazb.ServicioZapateriaReferenciab.zapateriawsSoap.getViajerosById(Zapateria.interfazb.ServicioZapateriaReferenciab.getViajerosByIdRequest request) {
-            return base.Channel.getViajerosById(request);
-        }
-        
-        public Zapateria.interfazb.ServicioZapateriaReferenciab.viajeros getViajerosById(int id_viajero) {
-            Zapateria.interfazb.ServicioZapateriaReferenciab.getViajerosByIdRequest inValue = new Zapateria.interfazb.ServicioZapateriaReferenciab.getViajerosByIdRequest();
-            inValue.Body = new Zapateria.interfazb.ServicioZapateriaReferenciab.getViajerosByIdRequestBody();
-            inValue.Body.id_viajero = id_viajero;
-            Zapateria.interfazb.ServicioZapateriaReferenciab.getViajerosByIdResponse retVal = ((Zapateria.interfazb.ServicioZapateriaReferenciab.zapateriawsSoap)(this)).getViajerosById(inValue);
-            return retVal.Body.getViajerosByIdResult;
-        }
-        
-        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<Zapateria.interfazb.ServicioZapateriaReferenciab.getViajerosByIdResponse> Zapateria.interfazb.ServicioZapateriaReferenciab.zapateriawsSoap.getViajerosByIdAsync(Zapateria.interfazb.ServicioZapateriaReferenciab.getViajerosByIdRequest request) {
-            return base.Channel.getViajerosByIdAsync(request);
-        }
-        
-        public System.Threading.Tasks.Task<Zapateria.interfazb.ServicioZapateriaReferenciab.getViajerosByIdResponse> getViajerosByIdAsync(int id_viajero) {
-            Zapateria.interfazb.ServicioZapateriaReferenciab.getViajerosByIdRequest inValue = new Zapateria.interfazb.ServicioZapateriaReferenciab.getViajerosByIdRequest();
-            inValue.Body = new Zapateria.interfazb.ServicioZapateriaReferenciab.getViajerosByIdRequestBody();
-            inValue.Body.id_viajero = id_viajero;
-            return ((Zapateria.interfazb.ServicioZapateriaReferenciab.zapateriawsSoap)(this)).getViajerosByIdAsync(inValue);
-        }
-        
-        public int deleteViajeros(int id_viajero) {
-            return base.Channel.deleteViajeros(id_viajero);
-        }
-        
-        public System.Threading.Tasks.Task<int> deleteViajerosAsync(int id_viajero) {
-            return base.Channel.deleteViajerosAsync(id_viajero);
-        }
-        
-        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        Zapateria.interfazb.ServicioZapateriaReferenciab.updateViajerosResponse Zapateria.interfazb.ServicioZapateriaReferenciab.zapateriawsSoap.updateViajeros(Zapateria.interfazb.ServicioZapateriaReferenciab.updateViajerosRequest request) {
-            return base.Channel.updateViajeros(request);
-        }
-        
-        public int updateViajeros(int id_viajero, string NomViajero, string ApeViajero, string TelefonoViajero, int proveedores, string CorreoViajero) {
-            Zapateria.interfazb.ServicioZapateriaReferenciab.updateViajerosRequest inValue = new Zapateria.interfazb.ServicioZapateriaReferenciab.updateViajerosRequest();
-            inValue.Body = new Zapateria.interfazb.ServicioZapateriaReferenciab.updateViajerosRequestBody();
-            inValue.Body.id_viajero = id_viajero;
-            inValue.Body.NomViajero = NomViajero;
-            inValue.Body.ApeViajero = ApeViajero;
-            inValue.Body.TelefonoViajero = TelefonoViajero;
-            inValue.Body.proveedores = proveedores;
-            inValue.Body.CorreoViajero = CorreoViajero;
-            Zapateria.interfazb.ServicioZapateriaReferenciab.updateViajerosResponse retVal = ((Zapateria.interfazb.ServicioZapateriaReferenciab.zapateriawsSoap)(this)).updateViajeros(inValue);
-            return retVal.Body.updateViajerosResult;
-        }
-        
-        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<Zapateria.interfazb.ServicioZapateriaReferenciab.updateViajerosResponse> Zapateria.interfazb.ServicioZapateriaReferenciab.zapateriawsSoap.updateViajerosAsync(Zapateria.interfazb.ServicioZapateriaReferenciab.updateViajerosRequest request) {
-            return base.Channel.updateViajerosAsync(request);
-        }
-        
-        public System.Threading.Tasks.Task<Zapateria.interfazb.ServicioZapateriaReferenciab.updateViajerosResponse> updateViajerosAsync(int id_viajero, string NomViajero, string ApeViajero, string TelefonoViajero, int proveedores, string CorreoViajero) {
-            Zapateria.interfazb.ServicioZapateriaReferenciab.updateViajerosRequest inValue = new Zapateria.interfazb.ServicioZapateriaReferenciab.updateViajerosRequest();
-            inValue.Body = new Zapateria.interfazb.ServicioZapateriaReferenciab.updateViajerosRequestBody();
-            inValue.Body.id_viajero = id_viajero;
-            inValue.Body.NomViajero = NomViajero;
-            inValue.Body.ApeViajero = ApeViajero;
-            inValue.Body.TelefonoViajero = TelefonoViajero;
-            inValue.Body.proveedores = proveedores;
-            inValue.Body.CorreoViajero = CorreoViajero;
-            return ((Zapateria.interfazb.ServicioZapateriaReferenciab.zapateriawsSoap)(this)).updateViajerosAsync(inValue);
         }
     }
 }

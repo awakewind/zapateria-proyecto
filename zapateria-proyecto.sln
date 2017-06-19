@@ -6,8 +6,14 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "zapateria_clases", "zapateria_clases\zapateria_clases.csproj", "{BC3F3770-0A68-496A-9F6D-EE534BE12F55}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zapateria.interfazb", "Zapateria.interfazb\Zapateria.interfazb.csproj", "{E4B2A0D2-AEDA-4F9D-9A36-F00DC7B93FBA}"
+	ProjectSection(ProjectDependencies) = postProject
+		{2DD91D91-A3BB-4133-A25E-78BAD6E58180} = {2DD91D91-A3BB-4133-A25E-78BAD6E58180}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "zapateria-interfazweb", "zapateria-interfazweb\zapateria-interfazweb.csproj", "{0CC1F96E-6010-46B1-B201-55699033177D}"
+	ProjectSection(ProjectDependencies) = postProject
+		{2DD91D91-A3BB-4133-A25E-78BAD6E58180} = {2DD91D91-A3BB-4133-A25E-78BAD6E58180}
+	EndProjectSection
 EndProject
 Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "WebSite3(1)", "WebSite3\", "{2DD91D91-A3BB-4133-A25E-78BAD6E58180}"
 	ProjectSection(WebsiteProperties) = preProject

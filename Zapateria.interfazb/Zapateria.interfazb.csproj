@@ -138,6 +138,9 @@
     <None Include="Service References\ServicioZapateriaReferenciab\Zapateria.interfazb.ServicioZapateriaReferenciab.agregarProveedorResponse.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
+    <None Include="Service References\ServicioZapateriaReferenciab\Zapateria.interfazb.ServicioZapateriaReferenciab.agregarUsuarioResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
     <None Include="Service References\ServicioZapateriaReferenciab\Zapateria.interfazb.ServicioZapateriaReferenciab.agregarViajeroResponse.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
@@ -246,6 +249,9 @@
     <None Include="Service References\ServicioZapateriaReferenciab\Zapateria.interfazb.ServicioZapateriaReferenciab.getAllZapatoResponse.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
+    <None Include="Service References\ServicioZapateriaReferenciab\Zapateria.interfazb.ServicioZapateriaReferenciab.getClienteByFieldResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
     <None Include="Service References\ServicioZapateriaReferenciab\Zapateria.interfazb.ServicioZapateriaReferenciab.getComisionesByIdResponse.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
@@ -277,6 +283,9 @@
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
     <None Include="Service References\ServicioZapateriaReferenciab\Zapateria.interfazb.ServicioZapateriaReferenciab.getZapatoByIdResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ServicioZapateriaReferenciab\Zapateria.interfazb.ServicioZapateriaReferenciab.loginResponse.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
     <None Include="Service References\ServicioZapateriaReferenciab\Zapateria.interfazb.ServicioZapateriaReferenciab.marcas.datasource">
@@ -315,6 +324,9 @@
     <None Include="Service References\ServicioZapateriaReferenciab\Zapateria.interfazb.ServicioZapateriaReferenciab.updateZapatoResponse.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
+    <None Include="Service References\ServicioZapateriaReferenciab\Zapateria.interfazb.ServicioZapateriaReferenciab.usuarios.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
     <None Include="Service References\ServicioZapateriaReferenciab\Zapateria.interfazb.ServicioZapateriaReferenciab.ventas.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
@@ -341,6 +353,21 @@
     <Resource Include="Images\Maquina-registradora-National-c.-1900.png" />
   </ItemGroup>
   <ItemGroup>
+    <Resource Include="Images\background-pattern-design-65.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\tec_nac_tln_40039_03.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\zapateria_clases\zapateria_clases.csproj">
+      <Project>{bc3f3770-0a68-496a-9f6d-ee534be12f55}</Project>
+      <Name>zapateria_clases</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Code\" />
+  </ItemGroup>
+  <ItemGroup>
     <WCFMetadataStorage Include="Service References\ServicioZapateriaReferenciab\" />
   </ItemGroup>
   <ItemGroup>
@@ -357,21 +384,6 @@
       <Generator>WCF Proxy Generator</Generator>
       <LastGenOutput>Reference.cs</LastGenOutput>
     </None>
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Images\background-pattern-design-65.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Images\tec_nac_tln_40039_03.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\zapateria_clases\zapateria_clases.csproj">
-      <Project>{bc3f3770-0a68-496a-9f6d-ee534be12f55}</Project>
-      <Name>zapateria_clases</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Code\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

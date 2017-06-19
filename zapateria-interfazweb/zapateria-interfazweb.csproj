@@ -261,6 +261,9 @@
     <Content Include="Service References\serviciozapateriaw\zapateria_interfazweb.serviciozapateriaw.getAllZapatoResponse.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </Content>
+    <Content Include="Service References\serviciozapateriaw\zapateria_interfazweb.serviciozapateriaw.getClienteByFieldResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
     <Content Include="Service References\serviciozapateriaw\zapateria_interfazweb.serviciozapateriaw.getComisionesByIdResponse.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </Content>
@@ -343,9 +346,6 @@
       <DependentUpon>Reference.svcmap</DependentUpon>
     </Content>
     <Content Include="Service References\serviciozapateriaw\zapateria_interfazweb.serviciozapateriaw.zapatos.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </Content>
-    <Content Include="Service References\serviciozapateriaw\zapateria_interfazweb.serviciozapateriaw.getClienteByFieldResponse.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </Content>
     <None Include="Web.Debug.config">
@@ -455,7 +455,6 @@
   <ItemGroup>
     <WCFMetadataStorage Include="Service References\serviciozapateriaw\" />
   </ItemGroup>
-  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

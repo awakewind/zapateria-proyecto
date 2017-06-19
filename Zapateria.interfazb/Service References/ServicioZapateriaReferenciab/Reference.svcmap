@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="61a79ebd-95ae-4ad3-9f8e-b1b6537be04b" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="d8f1708b-6d83-48ea-bd73-62cc2349cd0d" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
   <ClientOptions>
     <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
     <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
@@ -19,11 +19,11 @@
     <ServiceContractMappings />
   </ClientOptions>
   <MetadataSources>
-    <MetadataSource Address="http://localhost:50935/service_zapateria.asmx" Protocol="http" SourceId="1" />
+    <MetadataSource Address="http://localhost:59324/service_zapateria.asmx" Protocol="http" SourceId="1" />
   </MetadataSources>
   <Metadata>
-    <MetadataFile FileName="service_zapateria.wsdl" MetadataType="Wsdl" ID="f823efe5-733c-40fb-83e9-f821dd052afb" SourceId="1" SourceUrl="http://localhost:50935/service_zapateria.asmx?wsdl" />
-    <MetadataFile FileName="service_zapateria.disco" MetadataType="Disco" ID="91446045-0d77-45b1-be0d-c1f3fabcdf6d" SourceId="1" SourceUrl="http://localhost:50935/service_zapateria.asmx?disco" />
+    <MetadataFile FileName="service_zapateria.disco" MetadataType="Disco" ID="29c3362f-b611-46c3-a767-3f2f260ee06f" SourceId="1" SourceUrl="http://localhost:59324/service_zapateria.asmx?disco" />
+    <MetadataFile FileName="service_zapateria.wsdl" MetadataType="Wsdl" ID="2aa25893-3c02-4e77-aed4-e58b8b27abac" SourceId="1" SourceUrl="http://localhost:59324/service_zapateria.asmx?wsdl" />
   </Metadata>
   <Extensions>
     <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />

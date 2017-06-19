@@ -2,6 +2,100 @@
 <wsdl:definitions xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
   <wsdl:types>
     <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="getViajerosById">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="id_viajero" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getViajerosByIdResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="getViajerosByIdResult" type="tns:viajeros" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="viajeros">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="ApeViajero1" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="CorreoViajero1" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="Id_viajero" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="NomViajero1" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="Proveedores" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="TelefonoViajero1" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="deleteViajeros">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="id_viajero" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="deleteViajerosResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="deleteViajerosResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="updateViajeros">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="id_viajero" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="NomViajero" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="ApeViajero" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="TelefonoViajero" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="proveedores" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="CorreoViajero" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="updateViajerosResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="updateViajerosResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="agregarUsuario">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="usuario" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="contraseña" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="agregarUsuarioResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="agregarUsuarioResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="login">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="usuario" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="contraseña" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="loginResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="loginResult" type="tns:usuarios" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="usuarios">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="Contraseña" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="Id_usuario" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="Usuario" type="s:string" />
+        </s:sequence>
+      </s:complexType>
       <s:element name="agregarCargo">
         <s:complexType>
           <s:sequence>
@@ -1087,102 +1181,38 @@
           <s:element minOccurs="0" maxOccurs="unbounded" name="viajeros" nillable="true" type="tns:viajeros" />
         </s:sequence>
       </s:complexType>
-      <s:complexType name="viajeros">
-        <s:sequence>
-          <s:element minOccurs="0" maxOccurs="1" name="ApeViajero1" type="s:string" />
-          <s:element minOccurs="0" maxOccurs="1" name="CorreoViajero1" type="s:string" />
-          <s:element minOccurs="1" maxOccurs="1" name="Id_viajero" type="s:int" />
-          <s:element minOccurs="0" maxOccurs="1" name="NomViajero1" type="s:string" />
-          <s:element minOccurs="1" maxOccurs="1" name="Proveedores" type="s:int" />
-          <s:element minOccurs="0" maxOccurs="1" name="TelefonoViajero1" type="s:string" />
-        </s:sequence>
-      </s:complexType>
-      <s:element name="getViajerosById">
-        <s:complexType>
-          <s:sequence>
-            <s:element minOccurs="1" maxOccurs="1" name="id_viajero" type="s:int" />
-          </s:sequence>
-        </s:complexType>
-      </s:element>
-      <s:element name="getViajerosByIdResponse">
-        <s:complexType>
-          <s:sequence>
-            <s:element minOccurs="0" maxOccurs="1" name="getViajerosByIdResult" type="tns:viajeros" />
-          </s:sequence>
-        </s:complexType>
-      </s:element>
-      <s:element name="deleteViajeros">
-        <s:complexType>
-          <s:sequence>
-            <s:element minOccurs="1" maxOccurs="1" name="id_viajero" type="s:int" />
-          </s:sequence>
-        </s:complexType>
-      </s:element>
-      <s:element name="deleteViajerosResponse">
-        <s:complexType>
-          <s:sequence>
-            <s:element minOccurs="1" maxOccurs="1" name="deleteViajerosResult" type="s:int" />
-          </s:sequence>
-        </s:complexType>
-      </s:element>
-      <s:element name="updateViajeros">
-        <s:complexType>
-          <s:sequence>
-            <s:element minOccurs="1" maxOccurs="1" name="id_viajero" type="s:int" />
-            <s:element minOccurs="0" maxOccurs="1" name="NomViajero" type="s:string" />
-            <s:element minOccurs="0" maxOccurs="1" name="ApeViajero" type="s:string" />
-            <s:element minOccurs="0" maxOccurs="1" name="TelefonoViajero" type="s:string" />
-            <s:element minOccurs="1" maxOccurs="1" name="proveedores" type="s:int" />
-            <s:element minOccurs="0" maxOccurs="1" name="CorreoViajero" type="s:string" />
-          </s:sequence>
-        </s:complexType>
-      </s:element>
-      <s:element name="updateViajerosResponse">
-        <s:complexType>
-          <s:sequence>
-            <s:element minOccurs="1" maxOccurs="1" name="updateViajerosResult" type="s:int" />
-          </s:sequence>
-        </s:complexType>
-      </s:element>
-      <s:element name="agregarUsuario">
-        <s:complexType>
-          <s:sequence>
-            <s:element minOccurs="0" maxOccurs="1" name="usuario" type="s:string" />
-            <s:element minOccurs="0" maxOccurs="1" name="contraseña" type="s:string" />
-          </s:sequence>
-        </s:complexType>
-      </s:element>
-      <s:element name="agregarUsuarioResponse">
-        <s:complexType>
-          <s:sequence>
-            <s:element minOccurs="1" maxOccurs="1" name="agregarUsuarioResult" type="s:int" />
-          </s:sequence>
-        </s:complexType>
-      </s:element>
-      <s:element name="login">
-        <s:complexType>
-          <s:sequence>
-            <s:element minOccurs="0" maxOccurs="1" name="usuario" type="s:string" />
-            <s:element minOccurs="0" maxOccurs="1" name="contraseña" type="s:string" />
-          </s:sequence>
-        </s:complexType>
-      </s:element>
-      <s:element name="loginResponse">
-        <s:complexType>
-          <s:sequence>
-            <s:element minOccurs="0" maxOccurs="1" name="loginResult" type="tns:usuarios" />
-          </s:sequence>
-        </s:complexType>
-      </s:element>
-      <s:complexType name="usuarios">
-        <s:sequence>
-          <s:element minOccurs="0" maxOccurs="1" name="Contraseña" type="s:string" />
-          <s:element minOccurs="1" maxOccurs="1" name="Id_usuario" type="s:int" />
-          <s:element minOccurs="0" maxOccurs="1" name="Usuario" type="s:string" />
-        </s:sequence>
-      </s:complexType>
     </s:schema>
   </wsdl:types>
+  <wsdl:message name="getViajerosByIdSoapIn">
+    <wsdl:part name="parameters" element="tns:getViajerosById" />
+  </wsdl:message>
+  <wsdl:message name="getViajerosByIdSoapOut">
+    <wsdl:part name="parameters" element="tns:getViajerosByIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="deleteViajerosSoapIn">
+    <wsdl:part name="parameters" element="tns:deleteViajeros" />
+  </wsdl:message>
+  <wsdl:message name="deleteViajerosSoapOut">
+    <wsdl:part name="parameters" element="tns:deleteViajerosResponse" />
+  </wsdl:message>
+  <wsdl:message name="updateViajerosSoapIn">
+    <wsdl:part name="parameters" element="tns:updateViajeros" />
+  </wsdl:message>
+  <wsdl:message name="updateViajerosSoapOut">
+    <wsdl:part name="parameters" element="tns:updateViajerosResponse" />
+  </wsdl:message>
+  <wsdl:message name="agregarUsuarioSoapIn">
+    <wsdl:part name="parameters" element="tns:agregarUsuario" />
+  </wsdl:message>
+  <wsdl:message name="agregarUsuarioSoapOut">
+    <wsdl:part name="parameters" element="tns:agregarUsuarioResponse" />
+  </wsdl:message>
+  <wsdl:message name="loginSoapIn">
+    <wsdl:part name="parameters" element="tns:login" />
+  </wsdl:message>
+  <wsdl:message name="loginSoapOut">
+    <wsdl:part name="parameters" element="tns:loginResponse" />
+  </wsdl:message>
   <wsdl:message name="agregarCargoSoapIn">
     <wsdl:part name="parameters" element="tns:agregarCargo" />
   </wsdl:message>
@@ -1561,37 +1591,27 @@
   <wsdl:message name="getAllViajerosSoapOut">
     <wsdl:part name="parameters" element="tns:getAllViajerosResponse" />
   </wsdl:message>
-  <wsdl:message name="getViajerosByIdSoapIn">
-    <wsdl:part name="parameters" element="tns:getViajerosById" />
-  </wsdl:message>
-  <wsdl:message name="getViajerosByIdSoapOut">
-    <wsdl:part name="parameters" element="tns:getViajerosByIdResponse" />
-  </wsdl:message>
-  <wsdl:message name="deleteViajerosSoapIn">
-    <wsdl:part name="parameters" element="tns:deleteViajeros" />
-  </wsdl:message>
-  <wsdl:message name="deleteViajerosSoapOut">
-    <wsdl:part name="parameters" element="tns:deleteViajerosResponse" />
-  </wsdl:message>
-  <wsdl:message name="updateViajerosSoapIn">
-    <wsdl:part name="parameters" element="tns:updateViajeros" />
-  </wsdl:message>
-  <wsdl:message name="updateViajerosSoapOut">
-    <wsdl:part name="parameters" element="tns:updateViajerosResponse" />
-  </wsdl:message>
-  <wsdl:message name="agregarUsuarioSoapIn">
-    <wsdl:part name="parameters" element="tns:agregarUsuario" />
-  </wsdl:message>
-  <wsdl:message name="agregarUsuarioSoapOut">
-    <wsdl:part name="parameters" element="tns:agregarUsuarioResponse" />
-  </wsdl:message>
-  <wsdl:message name="loginSoapIn">
-    <wsdl:part name="parameters" element="tns:login" />
-  </wsdl:message>
-  <wsdl:message name="loginSoapOut">
-    <wsdl:part name="parameters" element="tns:loginResponse" />
-  </wsdl:message>
   <wsdl:portType name="zapateriawsSoap">
+    <wsdl:operation name="getViajerosById">
+      <wsdl:input message="tns:getViajerosByIdSoapIn" />
+      <wsdl:output message="tns:getViajerosByIdSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="deleteViajeros">
+      <wsdl:input message="tns:deleteViajerosSoapIn" />
+      <wsdl:output message="tns:deleteViajerosSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="updateViajeros">
+      <wsdl:input message="tns:updateViajerosSoapIn" />
+      <wsdl:output message="tns:updateViajerosSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="agregarUsuario">
+      <wsdl:input message="tns:agregarUsuarioSoapIn" />
+      <wsdl:output message="tns:agregarUsuarioSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="login">
+      <wsdl:input message="tns:loginSoapIn" />
+      <wsdl:output message="tns:loginSoapOut" />
+    </wsdl:operation>
     <wsdl:operation name="agregarCargo">
       <wsdl:input message="tns:agregarCargoSoapIn" />
       <wsdl:output message="tns:agregarCargoSoapOut" />
@@ -1844,29 +1864,54 @@
       <wsdl:input message="tns:getAllViajerosSoapIn" />
       <wsdl:output message="tns:getAllViajerosSoapOut" />
     </wsdl:operation>
-    <wsdl:operation name="getViajerosById">
-      <wsdl:input message="tns:getViajerosByIdSoapIn" />
-      <wsdl:output message="tns:getViajerosByIdSoapOut" />
-    </wsdl:operation>
-    <wsdl:operation name="deleteViajeros">
-      <wsdl:input message="tns:deleteViajerosSoapIn" />
-      <wsdl:output message="tns:deleteViajerosSoapOut" />
-    </wsdl:operation>
-    <wsdl:operation name="updateViajeros">
-      <wsdl:input message="tns:updateViajerosSoapIn" />
-      <wsdl:output message="tns:updateViajerosSoapOut" />
-    </wsdl:operation>
-    <wsdl:operation name="agregarUsuario">
-      <wsdl:input message="tns:agregarUsuarioSoapIn" />
-      <wsdl:output message="tns:agregarUsuarioSoapOut" />
-    </wsdl:operation>
-    <wsdl:operation name="login">
-      <wsdl:input message="tns:loginSoapIn" />
-      <wsdl:output message="tns:loginSoapOut" />
-    </wsdl:operation>
   </wsdl:portType>
   <wsdl:binding name="zapateriawsSoap" type="tns:zapateriawsSoap">
     <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="getViajerosById">
+      <soap:operation soapAction="http://tempuri.org/getViajerosById" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="deleteViajeros">
+      <soap:operation soapAction="http://tempuri.org/deleteViajeros" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="updateViajeros">
+      <soap:operation soapAction="http://tempuri.org/updateViajeros" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="agregarUsuario">
+      <soap:operation soapAction="http://tempuri.org/agregarUsuario" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="login">
+      <soap:operation soapAction="http://tempuri.org/login" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
     <wsdl:operation name="agregarCargo">
       <soap:operation soapAction="http://tempuri.org/agregarCargo" style="document" />
       <wsdl:input>
@@ -2434,54 +2479,54 @@
         <soap:body use="literal" />
       </wsdl:output>
     </wsdl:operation>
-    <wsdl:operation name="getViajerosById">
-      <soap:operation soapAction="http://tempuri.org/getViajerosById" style="document" />
-      <wsdl:input>
-        <soap:body use="literal" />
-      </wsdl:input>
-      <wsdl:output>
-        <soap:body use="literal" />
-      </wsdl:output>
-    </wsdl:operation>
-    <wsdl:operation name="deleteViajeros">
-      <soap:operation soapAction="http://tempuri.org/deleteViajeros" style="document" />
-      <wsdl:input>
-        <soap:body use="literal" />
-      </wsdl:input>
-      <wsdl:output>
-        <soap:body use="literal" />
-      </wsdl:output>
-    </wsdl:operation>
-    <wsdl:operation name="updateViajeros">
-      <soap:operation soapAction="http://tempuri.org/updateViajeros" style="document" />
-      <wsdl:input>
-        <soap:body use="literal" />
-      </wsdl:input>
-      <wsdl:output>
-        <soap:body use="literal" />
-      </wsdl:output>
-    </wsdl:operation>
-    <wsdl:operation name="agregarUsuario">
-      <soap:operation soapAction="http://tempuri.org/agregarUsuario" style="document" />
-      <wsdl:input>
-        <soap:body use="literal" />
-      </wsdl:input>
-      <wsdl:output>
-        <soap:body use="literal" />
-      </wsdl:output>
-    </wsdl:operation>
-    <wsdl:operation name="login">
-      <soap:operation soapAction="http://tempuri.org/login" style="document" />
-      <wsdl:input>
-        <soap:body use="literal" />
-      </wsdl:input>
-      <wsdl:output>
-        <soap:body use="literal" />
-      </wsdl:output>
-    </wsdl:operation>
   </wsdl:binding>
   <wsdl:binding name="zapateriawsSoap12" type="tns:zapateriawsSoap">
     <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="getViajerosById">
+      <soap12:operation soapAction="http://tempuri.org/getViajerosById" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="deleteViajeros">
+      <soap12:operation soapAction="http://tempuri.org/deleteViajeros" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="updateViajeros">
+      <soap12:operation soapAction="http://tempuri.org/updateViajeros" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="agregarUsuario">
+      <soap12:operation soapAction="http://tempuri.org/agregarUsuario" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="login">
+      <soap12:operation soapAction="http://tempuri.org/login" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
     <wsdl:operation name="agregarCargo">
       <soap12:operation soapAction="http://tempuri.org/agregarCargo" style="document" />
       <wsdl:input>
@@ -3049,58 +3094,13 @@
         <soap12:body use="literal" />
       </wsdl:output>
     </wsdl:operation>
-    <wsdl:operation name="getViajerosById">
-      <soap12:operation soapAction="http://tempuri.org/getViajerosById" style="document" />
-      <wsdl:input>
-        <soap12:body use="literal" />
-      </wsdl:input>
-      <wsdl:output>
-        <soap12:body use="literal" />
-      </wsdl:output>
-    </wsdl:operation>
-    <wsdl:operation name="deleteViajeros">
-      <soap12:operation soapAction="http://tempuri.org/deleteViajeros" style="document" />
-      <wsdl:input>
-        <soap12:body use="literal" />
-      </wsdl:input>
-      <wsdl:output>
-        <soap12:body use="literal" />
-      </wsdl:output>
-    </wsdl:operation>
-    <wsdl:operation name="updateViajeros">
-      <soap12:operation soapAction="http://tempuri.org/updateViajeros" style="document" />
-      <wsdl:input>
-        <soap12:body use="literal" />
-      </wsdl:input>
-      <wsdl:output>
-        <soap12:body use="literal" />
-      </wsdl:output>
-    </wsdl:operation>
-    <wsdl:operation name="agregarUsuario">
-      <soap12:operation soapAction="http://tempuri.org/agregarUsuario" style="document" />
-      <wsdl:input>
-        <soap12:body use="literal" />
-      </wsdl:input>
-      <wsdl:output>
-        <soap12:body use="literal" />
-      </wsdl:output>
-    </wsdl:operation>
-    <wsdl:operation name="login">
-      <soap12:operation soapAction="http://tempuri.org/login" style="document" />
-      <wsdl:input>
-        <soap12:body use="literal" />
-      </wsdl:input>
-      <wsdl:output>
-        <soap12:body use="literal" />
-      </wsdl:output>
-    </wsdl:operation>
   </wsdl:binding>
   <wsdl:service name="zapateriaws">
     <wsdl:port name="zapateriawsSoap" binding="tns:zapateriawsSoap">
-      <soap:address location="http://localhost:50935/service_zapateria.asmx" />
+      <soap:address location="http://localhost:59324/service_zapateria.asmx" />
     </wsdl:port>
     <wsdl:port name="zapateriawsSoap12" binding="tns:zapateriawsSoap12">
-      <soap12:address location="http://localhost:50935/service_zapateria.asmx" />
+      <soap12:address location="http://localhost:59324/service_zapateria.asmx" />
     </wsdl:port>
   </wsdl:service>
 </wsdl:definitions>
