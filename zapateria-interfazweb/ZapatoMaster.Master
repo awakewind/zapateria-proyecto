@@ -28,8 +28,8 @@
                 <asp:Label ID="lblUsuario" runat="server" Text=""></asp:Label>
                 <asp:Button ID="btnSalir" runat="server" Text="Salir" CssClass="active" ForeColor="#003300" OnClick="btnSalir_Click" />
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a href="/RegistrarVenta.aspx">Registrar Venta</a> </li>
-                    <li><a href="/ReporteProductos.aspx">Reporte de productos</a> </li>
+                    <li><a href="/forms/Ventas/RegistrarVenta.aspx">Registrar Venta</a> </li>
+                    <li><a href="/forms/Ventas/SearchVenta.aspx">Reporte de productos</a> </li>
                     <li><a href="/AdministraciónTienda.aspx">Administración de la tienda</a> </li>
                 </ul>
             </div>

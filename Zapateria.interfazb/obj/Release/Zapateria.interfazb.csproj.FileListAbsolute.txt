@@ -42,3 +42,25 @@ D:\Users\imdevdaniel\Documents\Visual Studio 2015\Projects\zapateria-proyecto\Za
 D:\Users\imdevdaniel\Documents\Visual Studio 2015\Projects\zapateria-proyecto\Zapateria.interfazb\obj\Release\Zapateria.interfazb.csproj.GenerateResource.Cache
 D:\Users\imdevdaniel\Documents\Visual Studio 2015\Projects\zapateria-proyecto\Zapateria.interfazb\obj\Release\Zapateria.interfazb.exe
 D:\Users\imdevdaniel\Documents\Visual Studio 2015\Projects\zapateria-proyecto\Zapateria.interfazb\obj\Release\Zapateria.interfazb.pdb
+C:\Users\rikelmi\Source\Repos\zapateria-proyecto2\Zapateria.interfazb\bin\Release\Zapateria.interfazb.exe.config
+C:\Users\rikelmi\Source\Repos\zapateria-proyecto2\Zapateria.interfazb\obj\Release\Zapateria.interfazb.exe
+C:\Users\rikelmi\Source\Repos\zapateria-proyecto2\Zapateria.interfazb\obj\Release\Zapateria.interfazb.pdb
+C:\Users\rikelmi\Source\Repos\zapateria-proyecto2\Zapateria.interfazb\bin\Release\Zapateria.interfazb.exe
+C:\Users\rikelmi\Source\Repos\zapateria-proyecto2\Zapateria.interfazb\bin\Release\Zapateria.interfazb.pdb
+C:\Users\rikelmi\Source\Repos\zapateria-proyecto2\Zapateria.interfazb\bin\Release\zapateria_clases.dll
+C:\Users\rikelmi\Source\Repos\zapateria-proyecto2\Zapateria.interfazb\bin\Release\zapateria_clases.pdb
+C:\Users\rikelmi\Source\Repos\zapateria-proyecto2\Zapateria.interfazb\obj\Release\Zapateria.interfazb.csprojResolveAssemblyReference.cache
+C:\Users\rikelmi\Source\Repos\zapateria-proyecto2\Zapateria.interfazb\obj\Release\MainWindow.g.cs
+C:\Users\rikelmi\Source\Repos\zapateria-proyecto2\Zapateria.interfazb\obj\Release\VentanaAdministración.g.cs
+C:\Users\rikelmi\Source\Repos\zapateria-proyecto2\Zapateria.interfazb\obj\Release\VentanaExistencias.g.cs
+C:\Users\rikelmi\Source\Repos\zapateria-proyecto2\Zapateria.interfazb\obj\Release\VentanaVentas.g.cs
+C:\Users\rikelmi\Source\Repos\zapateria-proyecto2\Zapateria.interfazb\obj\Release\App.g.cs
+C:\Users\rikelmi\Source\Repos\zapateria-proyecto2\Zapateria.interfazb\obj\Release\Zapateria.interfazb_MarkupCompile.cache
+C:\Users\rikelmi\Source\Repos\zapateria-proyecto2\Zapateria.interfazb\obj\Release\Zapateria.interfazb_MarkupCompile.lref
+C:\Users\rikelmi\Source\Repos\zapateria-proyecto2\Zapateria.interfazb\obj\Release\MainWindow.baml
+C:\Users\rikelmi\Source\Repos\zapateria-proyecto2\Zapateria.interfazb\obj\Release\VentanaAdministración.baml
+C:\Users\rikelmi\Source\Repos\zapateria-proyecto2\Zapateria.interfazb\obj\Release\VentanaExistencias.baml
+C:\Users\rikelmi\Source\Repos\zapateria-proyecto2\Zapateria.interfazb\obj\Release\VentanaVentas.baml
+C:\Users\rikelmi\Source\Repos\zapateria-proyecto2\Zapateria.interfazb\obj\Release\Zapateria.interfazb.g.resources
+C:\Users\rikelmi\Source\Repos\zapateria-proyecto2\Zapateria.interfazb\obj\Release\Zapateria.interfazb.Properties.Resources.resources
+C:\Users\rikelmi\Source\Repos\zapateria-proyecto2\Zapateria.interfazb\obj\Release\Zapateria.interfazb.csproj.GenerateResource.Cache

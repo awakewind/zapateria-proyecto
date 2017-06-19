@@ -6,3 +6,8 @@ D:\Users\imdevdaniel\Documents\Visual Studio 2015\Projects\zapateria-proyecto\za
 D:\Users\imdevdaniel\Documents\Visual Studio 2015\Projects\zapateria-proyecto\zapateria_clases\bin\Release\zapateria_clases.pdb
 D:\Users\imdevdaniel\Documents\Visual Studio 2015\Projects\zapateria-proyecto\zapateria_clases\obj\Release\zapateria_clases.dll
 D:\Users\imdevdaniel\Documents\Visual Studio 2015\Projects\zapateria-proyecto\zapateria_clases\obj\Release\zapateria_clases.pdb
+C:\Users\rikelmi\Source\Repos\zapateria-proyecto2\zapateria_clases\bin\Release\zapateria_clases.dll
+C:\Users\rikelmi\Source\Repos\zapateria-proyecto2\zapateria_clases\bin\Release\zapateria_clases.pdb
+C:\Users\rikelmi\Source\Repos\zapateria-proyecto2\zapateria_clases\obj\Release\zapateria_clases.csprojResolveAssemblyReference.cache
+C:\Users\rikelmi\Source\Repos\zapateria-proyecto2\zapateria_clases\obj\Release\zapateria_clases.dll
+C:\Users\rikelmi\Source\Repos\zapateria-proyecto2\zapateria_clases\obj\Release\zapateria_clases.pdb

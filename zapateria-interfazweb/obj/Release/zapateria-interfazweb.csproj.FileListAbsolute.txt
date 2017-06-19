@@ -63,3 +63,36 @@ D:\Users\imdevdaniel\Documents\Visual Studio 2015\Projects\zapateria-proyecto\za
 D:\Users\imdevdaniel\Documents\Visual Studio 2015\Projects\zapateria-proyecto\zapateria-interfazweb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
 D:\Users\imdevdaniel\Documents\Visual Studio 2015\Projects\zapateria-proyecto\zapateria-interfazweb\obj\Release\zapateria-interfazweb.dll
 D:\Users\imdevdaniel\Documents\Visual Studio 2015\Projects\zapateria-proyecto\zapateria-interfazweb\obj\Release\zapateria-interfazweb.pdb
+C:\Users\rikelmi\Source\Repos\zapateria-proyecto2\zapateria-interfazweb\bin\ApplicationInsights.config
+C:\Users\rikelmi\Source\Repos\zapateria-proyecto2\zapateria-interfazweb\bin\roslyn\csc.exe
+C:\Users\rikelmi\Source\Repos\zapateria-proyecto2\zapateria-interfazweb\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\rikelmi\Source\Repos\zapateria-proyecto2\zapateria-interfazweb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\rikelmi\Source\Repos\zapateria-proyecto2\zapateria-interfazweb\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\rikelmi\Source\Repos\zapateria-proyecto2\zapateria-interfazweb\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\rikelmi\Source\Repos\zapateria-proyecto2\zapateria-interfazweb\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\rikelmi\Source\Repos\zapateria-proyecto2\zapateria-interfazweb\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\rikelmi\Source\Repos\zapateria-proyecto2\zapateria-interfazweb\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\rikelmi\Source\Repos\zapateria-proyecto2\zapateria-interfazweb\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\rikelmi\Source\Repos\zapateria-proyecto2\zapateria-interfazweb\bin\roslyn\vbc.exe
+C:\Users\rikelmi\Source\Repos\zapateria-proyecto2\zapateria-interfazweb\bin\roslyn\VBCSCompiler.exe
+C:\Users\rikelmi\Source\Repos\zapateria-proyecto2\zapateria-interfazweb\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\rikelmi\Source\Repos\zapateria-proyecto2\zapateria-interfazweb\bin\zapateria-interfazweb.dll.config
+C:\Users\rikelmi\Source\Repos\zapateria-proyecto2\zapateria-interfazweb\bin\zapateria-interfazweb.dll
+C:\Users\rikelmi\Source\Repos\zapateria-proyecto2\zapateria-interfazweb\bin\zapateria-interfazweb.pdb
+C:\Users\rikelmi\Source\Repos\zapateria-proyecto2\zapateria-interfazweb\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\rikelmi\Source\Repos\zapateria-proyecto2\zapateria-interfazweb\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\rikelmi\Source\Repos\zapateria-proyecto2\zapateria-interfazweb\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\rikelmi\Source\Repos\zapateria-proyecto2\zapateria-interfazweb\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\rikelmi\Source\Repos\zapateria-proyecto2\zapateria-interfazweb\bin\Microsoft.AI.Web.dll
+C:\Users\rikelmi\Source\Repos\zapateria-proyecto2\zapateria-interfazweb\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\rikelmi\Source\Repos\zapateria-proyecto2\zapateria-interfazweb\bin\Microsoft.ApplicationInsights.dll
+C:\Users\rikelmi\Source\Repos\zapateria-proyecto2\zapateria-interfazweb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\rikelmi\Source\Repos\zapateria-proyecto2\zapateria-interfazweb\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\rikelmi\Source\Repos\zapateria-proyecto2\zapateria-interfazweb\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\rikelmi\Source\Repos\zapateria-proyecto2\zapateria-interfazweb\bin\Microsoft.AI.Web.xml
+C:\Users\rikelmi\Source\Repos\zapateria-proyecto2\zapateria-interfazweb\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\rikelmi\Source\Repos\zapateria-proyecto2\zapateria-interfazweb\bin\Microsoft.ApplicationInsights.xml
+C:\Users\rikelmi\Source\Repos\zapateria-proyecto2\zapateria-interfazweb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\rikelmi\Source\Repos\zapateria-proyecto2\zapateria-interfazweb\obj\Release\zapateria-interfazweb.csprojResolveAssemblyReference.cache
+C:\Users\rikelmi\Source\Repos\zapateria-proyecto2\zapateria-interfazweb\obj\Release\zapateria-interfazweb.dll
+C:\Users\rikelmi\Source\Repos\zapateria-proyecto2\zapateria-interfazweb\obj\Release\zapateria-interfazweb.pdb

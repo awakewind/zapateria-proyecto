@@ -4,13 +4,13 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <div class="form-container">
         <div class="form-header">
-            <h2>Buscar Producto</h2>
+            <h2>Buscar Cliente</h2>
         </div>
         <div class="form-body">
 
             <div class="form-row">
                 <div class="form-row-label">
-                    <asp:Label AssociatedControlID="txbx_parametro" Text="Buscar nombre del producto" runat="server"></asp:Label>
+                    <asp:Label AssociatedControlID="txbx_parametro" Text="Nombre / Apellido" runat="server"></asp:Label>
                 </div>
                 <div class="form-row-control">
                     <asp:TextBox ID="txbx_parametro" runat="server"></asp:TextBox>
